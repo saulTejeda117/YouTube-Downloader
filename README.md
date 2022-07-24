@@ -19,13 +19,42 @@ import pytube
 ```
 
 ### 1. Pytube
-<p align = 'justify'>Para realizar las descargas del contenido de los enlaces de YouTube se utilizó la librería <a href='https://pytube.io/en/latest/' target="_blank"><code>Pytube</code></a>, que gracias a su facilidad de uso y  continua actualización es una herramienta ideal para trabajar con contenido multimedia.</p> 
+<p align = 'justify'>Para realizar las descargas del contenido de los enlaces de YouTube se utilizó la librería <a href='https://pytube.io/en/latest/' target="_blank"><code>Pytube</code></a>, que gracias a su facilidad de uso y  continua actualización es una herramienta ideal para trabajar con contenido multimedia. A continuación, se muestra el uso de una de las funciones de esta librería dentro de la función de descarga y guardado de videos, dentro del código <a href='https://github.com/saulTejeda117/YouTube-Video-Downloader/blob/main/youtubeDownloader.py' target="_blank"><code>youtubeDownloader.py</code></a>:</p>
+
+```
+# Download-Save function
+def saveVideo(videoDirection):
+    global saveDirectory
+    file = videoDirection.streams.filter(only_audio=True).first()
+    outputFile = file.download(saveDirectory)
+    (...)
+```
 
 ### 2. Tkinter
 <p align = 'justify'>La GUI fue desarrollada con la ayuda de <a href='https://docs.python.org/es/3/library/tkinter.html'><code>Tkinter</code></a>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.</p>
 
+```
+def main(defaultSaveDirectoryPath):
+    global downloadList
+    saveDirectory = ""
+    # Main window object declaration
+    mainWindow = tk.Tk()
+
+    # Principal mainWindow Elements
+    mainWindow.title("YouTube Downloader")
+    mainWindow.config(width = 400, height = 300)
+    mainWindow.resizable(False, False)
+    tk.Label(text = 'YouTube Videos Downloader').place(x = 125, y = 20)
+    
+    # More Elements 
+    (...)
+    mainWindow.mainloop()  
+main(default)
+```
+
 ### 3. OS
-<p align = 'justify'>Para realizar la gentión de los archivos descargados (en dónde se guardan, el nombre con el que se guardan, etc.) se utilizó la librería de <a href='https://docs.python.org/3/library/os.html'><code>OS</code></a>, la cual provee al desarrollador de una serie de funcionales propias del sistema operativo de forma protable, como la lectura y escritura de archivos o la manipulación de derectorios.<p>
+<p align = 'justify'>Para realizar la gentión de los archivos descargados (en dónde se guardan, el nombre con el que se guardan, etc.) se utilizó la librería de <a href='https://docs.python.org/3/library/os.html'><code>OS</code></a>, la cual provee al desarrollador de una serie de funcionales propias del sistema operativo de forma protable, como la lectura y escritura de archivos o la manipulación de derectorios.</p>
 
-
+### 4. AutoPyToExe
+<p align='justify'><a href='https://pyinstaller.org/en/stable/'><code>Auto PY to EXE</code></a></p>
 
