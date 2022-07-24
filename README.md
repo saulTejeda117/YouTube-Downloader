@@ -19,4 +19,4 @@ import pytube
 ```
 <p align = 'justify'>La GUI fue desarrollada con la ayuda de <code>Tkinter</code>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.</p><br>
 
-<p align = 'justify'>Para realizar las descargas con los enlaces de YouTube se utilizó <a href='https://pytube.io/en/latest/', target="_top" rel="noopener noreferrer"><code>pytube</code></a>,</p> 
+<p align = 'justify'>Para realizar las descargas con los enlaces de YouTube se utilizó <a href='https://pytube.io/en/latest/', target="_blank" rel="noopener noreferrer"><code>pytube</code></a>,</p> 
