@@ -84,18 +84,24 @@ def saveVideo(videoDirection):
 ## Funcionamiento
 ### 1. Descargar Achivo 'youtubeDownloader.exe' 
 <p align='justify'> Dentro del repositorio es posible encontrar la versión ejecutable del código con el nombre de <code>youtubeDownloader.exe</code>, entonces descargaremos el archivo ejecutable desde el repositorio.</p>
-
-<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.03.19 PM.jpeg"><br>Fig. 4 Descargar Archivo Ejecutable</img>Accederemos <br>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.03.19 PM.jpeg">Fig. 4 Descargar Archivo Ejecutable</img>Accederemos <br>
 
 ### 2. Ejecutartalo como Administrador
-<p align='justify'> Accederemos a la carpeta dónde se encuentra el archivo ejecutable y procederemos a ejecutarlo como administrador </p>
-<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.06.59 PM.jpeg"><br>Fig. 5 Escoger Directorio de Guardado</img><br>
+<p align='justify'> Accederemos a la carpeta dónde se encuentra el archivo ejecutable y procederemos a ejecutarlo como administrador.</p>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.06.59 PM.jpeg">Fig. 5 Escoger Directorio de Guardado</img><br>
 
-### 3. Escoger el Directorio Dónde se Guardar las Descargas
-<p align='justify'> </p>
+### 3. Conceder los permisos necesarios
+<p align = 'justify'>Posteriormente concederemos los permisos necesarios en la ventana de windows que aparecerá.</p>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.42.05 PM.jpeg">Fig. 6 Conceder los Permisos</img><br>
 
-<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.14.43 PM.jpeg"><br>Fig. 6 Escoger Directorio de Guardado</img><br>
+### 4. Escoger el Directorio Dónde se Guardar las Descargas
+<p align='justify'>Una vez dentro de la interfaz principal de usuario podremos utilizar los botones dentro, para seleccionar la carpeta de guardado de arcchivos.</p>
+<img width="250px" src ="figs/2022-07-24 16-16-14.gif">Fig. 7 Escoger Directorio de Guardado</img><br>
 
+### 5. Añadir links de Descarga 
+<p align='justify'>Una vez dentro de la interfaz principal de usuario podremos utilizar los botones dentro, para seleccionar la carpeta de guardado de archivos.</p>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.28 PM.jpeg">Fig. 7 Ingresar Link De Descarga</img><br>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.54 PM.jpeg">Fig. 8 Añadir Link De Descarga a la Lista</img><br>
 ## Referencias
 
 
