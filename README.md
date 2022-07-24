@@ -6,7 +6,7 @@
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.14.43 PM.jpeg"><br>Fig. 2 Lista de Descargas</img><br>
 
 ## Librerias y Recursos Utilizados
-<p align = 'justify'> Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo <code>youtubeDownloader.exe</code>. <p align = 'justify'> Las librerías utilizadas para la elaboración del trbajo se encuentran en a continuación:</p>
+<p align = 'justify'> Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo <code>youtubeDownloader.exe</code>. Las librerías utilizadas para la elaboración del trbajo se encuentran en a continuación:</p>
 
 ```
 import tkinter as tk
@@ -17,5 +17,6 @@ from tkinter import filedialog, messagebox
 
 import pytube
 ```
+<p align = 'justify'>La GUI fue desarrollada con la ayuda de <code>Tkinter</code>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.</p><br>
 
-La GUI fue desarrollada con la ayuda de `Tkinter`, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.
+<p align = 'justify'>Para realizar las descargas con los enlaces de YouTube se utilizó <a href='https://pytube.io/en/latest/', target="_blank" rel="noopener noreferrer"><code>pytube</code></a>,</p> 
