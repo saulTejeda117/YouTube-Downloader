@@ -81,3 +81,21 @@ def saveVideo(videoDirection):
 
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.26.07 PM.jpeg"><br>Fig. 3 Interfaz de Auto PY to EXE</img><br>
 
+## Funcionamiento
+### 1. Descargar Achivo 'youtubeDownloader.exe' 
+<p align='justify'> Dentro del repositorio es posible encontrar la versión ejecutable del código con el nombre de <code>youtubeDownloader.exe</code>, entonces descargaremos el archivo ejecutable desde el repositorio.</p>
+
+<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.03.19 PM.jpeg"><br>Fig. 4 Descargar Archivo Ejecutable</img>Accederemos <br>
+
+### 2. Ejecutartalo como Administrador
+<p align='justify'> Accederemos a la carpeta dónde se encuentra el archivo ejecutable y procederemos a ejecutarlo como administrador </p>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.06.59 PM.jpeg"><br>Fig. 5 Escoger Directorio de Guardado</img><br>
+
+### 3. Escoger el Directorio Dónde se Guardar las Descargas
+<p align='justify'> </p>
+
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.14.43 PM.jpeg"><br>Fig. 6 Escoger Directorio de Guardado</img><br>
+
+## Referencias
+
+
