@@ -56,10 +56,12 @@ main('C:/Users/' + username + '/Music')
 
 ### 3. OS
 <p align = 'justify'>Para realizar la gentión de los archivos descargados (en dónde se guardan, el nombre con el que se guardan, etc.) se utilizó la librería de <a href='https://docs.python.org/3/library/os.html'><code>OS</code></a>, la cual provee al desarrollador de una serie de funcionales propias del sistema operativo de forma protable, como la lectura y escritura de archivos o la manipulación de derectorios.</p>
+
 ```
 username = os.getlogin( )
 
 (...)
+
 def saveVideo(videoDirection):
     global saveDirectory
     file = videoDirection.streams.filter(only_audio=True).first()
