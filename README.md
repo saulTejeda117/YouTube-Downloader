@@ -78,13 +78,12 @@ def saveVideo(videoDirection):
 
 ### 4. AutoPyToExe
 <p align='justify'><a href='https://pyinstaller.org/en/stable/'><code>Auto PY to EXE</code></a> es una librería especial del lenguaje de programación de Python, a través del cual es posible convertir una archivo '.py' en un archivo executable '.exe', junto con todas sus dependencias.</p>
-
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.26.07 PM.jpeg"><br>Fig. 3 Interfaz de Auto PY to EXE</img><br>
 
 ## Funcionamiento
 ### 1. Descargar Achivo 'youtubeDownloader.exe' 
 <p align='justify'> Dentro del repositorio es posible encontrar la versión ejecutable del código con el nombre de <code>youtubeDownloader.exe</code>, entonces descargaremos el archivo ejecutable desde el repositorio.</p>
-<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.03.19 PM.jpeg">Fig. 4 Descargar Archivo Ejecutable</img>Accederemos <br>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.03.19 PM.jpeg">Fig. 4 Descargar Archivo Ejecutable</img><br>
 
 ### 2. Ejecutartalo como Administrador
 <p align='justify'> Accederemos a la carpeta dónde se encuentra el archivo ejecutable y procederemos a ejecutarlo como administrador.</p>
@@ -99,9 +98,10 @@ def saveVideo(videoDirection):
 <img width="250px" src ="figs/2022-07-24 16-16-14.gif">Fig. 7 Escoger Directorio de Guardado</img><br>
 
 ### 5. Añadir links de Descarga 
-<p align='justify'>Una vez dentro de la interfaz principal de usuario podremos utilizar los botones dentro, para seleccionar la carpeta de guardado de archivos.</p>
+<p align='justify'> Posteriormente, dentro del segundo cuadro de texto pagaremos el link de descarga del video que deseamos descargar y damos click en el botón de agregar a la lista de descargas (Fig. 7 Ingresar Link de Descarga a la Lista), una vez hecho esto la lista se desplegará al final de la interfaz (Fig. 8 Añadir Link de Descarga a la Lista).</p>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.28 PM.jpeg">Fig. 7 Ingresar Link De Descarga</img><br>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.54 PM.jpeg">Fig. 8 Añadir Link De Descarga a la Lista</img><br>
+
 ## Referencias
 
 
