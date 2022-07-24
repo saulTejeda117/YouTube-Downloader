@@ -6,7 +6,7 @@
 > <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.14.43 PM.jpeg"><br>Fig. 2 Lista de Descargas</img><br>
 
 ## Librerias y Recursos Utilizados
-Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo `OCT_Images_AutoClassificator.exe`
+Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo `youtubeDownloader.exe`
 
 ```
 import tkinter as tk
