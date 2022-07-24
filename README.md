@@ -7,3 +7,5 @@
 
 ## Librerias y Recursos Utilizados
 <p align='justify'>Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo `OCT_Images_AutoClassificator.exe`</p>
+```
+```
