@@ -56,7 +56,26 @@ main('C:/Users/' + username + '/Music')
 
 ### 3. OS
 <p align = 'justify'>Para realizar la gentión de los archivos descargados (en dónde se guardan, el nombre con el que se guardan, etc.) se utilizó la librería de <a href='https://docs.python.org/3/library/os.html'><code>OS</code></a>, la cual provee al desarrollador de una serie de funcionales propias del sistema operativo de forma protable, como la lectura y escritura de archivos o la manipulación de derectorios.</p>
+```
+username = os.getlogin( )
+
+(...)
+def saveVideo(videoDirection):
+    global saveDirectory
+    file = videoDirection.streams.filter(only_audio=True).first()
+    outputFile = file.download(saveDirectory)
+    base, ext = os.path.splitext(outputFile)
+    
+    # It'll save as mp3
+    new_file = base + '.mp3'
+    fileExists = os.path.exists(new_file)
+    
+(...)
+
+```
 
 ### 4. AutoPyToExe
-<p align='justify'><a href='https://pyinstaller.org/en/stable/'><code>Auto PY to EXE</code></a></p>
+<p align='justify'><a href='https://pyinstaller.org/en/stable/'><code>Auto PY to EXE</code></a> es una librería especial del lenguaje de programación de Python, a través del cual es posible convertir una archivo '.py' en un archivo executable '.exe', junto con todas sus dependencias.</p>
+
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.26.07 PM.jpeg"><br>Fig. 3 Interfaz de Auto PY to EXE</img><br>
 
