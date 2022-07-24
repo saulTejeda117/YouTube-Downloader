@@ -17,3 +17,5 @@ from tkinter import filedialog, messagebox
 
 import pytube
 ```
+
+La GUI fue desarrollada con la ayuda de `Tkinter`, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.
