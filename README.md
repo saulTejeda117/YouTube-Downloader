@@ -78,7 +78,7 @@ def saveVideo(videoDirection):
 
 ### 4. AutoPyToExe
 <p align='justify'><a href='https://pyinstaller.org/en/stable/'><code>Auto PY to EXE</code></a> es una librería especial del lenguaje de programación de Python, a través del cual es posible convertir una archivo '.py' en un archivo executable '.exe', junto con todas sus dependencias.</p>
-<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.26.07 PM.jpeg"><br>Fig. 3 Interfaz de Auto PY to EXE</img><br>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.26.07 PM.jpeg">Fig. 3 Interfaz de Auto PY to EXE</img><br>
 
 ## Funcionamiento
 ### 1. Descargar Achivo 'youtubeDownloader.exe' 
@@ -99,8 +99,8 @@ def saveVideo(videoDirection):
 
 ### 5. Añadir links de Descarga 
 <p align='justify'> Posteriormente, dentro del segundo cuadro de texto pagaremos el link de descarga del video que deseamos descargar y damos click en el botón de agregar a la lista de descargas (Fig. 7 Ingresar Link de Descarga a la Lista), una vez hecho esto la lista se desplegará al final de la interfaz (Fig. 8 Añadir Link de Descarga a la Lista).</p>
-<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.28 PM.jpeg">Fig. 7 Ingresar Link De Descarga</img><br>
-<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.54 PM.jpeg">Fig. 8 Añadir Link De Descarga a la Lista</img><br>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.28 PM.jpeg">Fig. 8 Ingresar Link De Descarga</img><br>
+<img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.54 PM.jpeg">Fig. 9 Añadir Link De Descarga a la Lista</img><br>
 
 ## Referencias
 
