@@ -15,8 +15,6 @@ from tkinter import *
 
 import os
 from tkinter import filedialog, messagebox
-from turtle import onclick
 
 import pytube
-
 ```
