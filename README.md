@@ -5,7 +5,7 @@
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.11.31 PM.jpeg"><br>Fig. 1 Interfaz Principal</img><br>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.14.43 PM.jpeg"><br>Fig. 2 Lista de Descargas</img><br>
 
-## Librerias y Recursos Utilizados
+## Librerías y Recursos Utilizados
 <p align = 'justify'> Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo <code>youtubeDownloader.exe</code>. Las librerías utilizadas para la elaboración del trbajo se encuentran en a continuación:</p>
 
 ```
@@ -17,6 +17,15 @@ from tkinter import filedialog, messagebox
 
 import pytube
 ```
-<p align = 'justify'>La GUI fue desarrollada con la ayuda de <code>Tkinter</code>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.</p><br>
 
-<p align = 'justify'>Para realizar las descargas con los enlaces de YouTube se utilizó <a href='https://pytube.io/en/latest/' target="_blank"><code>pytube</code></a>,</p> 
+### 1. Pytube
+<p align = 'justify'>Para realizar las descargas del contenido de los enlaces de YouTube se utilizó la librería <a href='https://pytube.io/en/latest/' target="_blank"><code>Pytube</code></a>, que gracias a su facilidad de uso y  continua actualización es una herramienta ideal para trabajar con contenido multimedia.</p> 
+
+### 2. Tkinter
+<p align = 'justify'>La GUI fue desarrollada con la ayuda de <a href='https://docs.python.org/es/3/library/tkinter.html'><code>Tkinter</code></a>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.</p>
+
+### 3. OS
+<p align = 'justify'>Para realizar la gentión de los archivos descargados (en dónde se guardan, el nombre con el que se guardan, etc.) se utilizó la librería de <a href='https://docs.python.org/3/library/os.html'><code>OS</code></a>, la cual provee al desarrollador de una serie de funcionales propias del sistema operativo de forma protable, como la lectura y escritura de archivos o la manipulación de derectorios.<p>
+
+
+
