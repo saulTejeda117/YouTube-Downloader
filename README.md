@@ -102,6 +102,10 @@ def saveVideo(videoDirection):
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.28 PM.jpeg">Fig. 8 Ingresar Link De Descarga</img><br>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.54 PM.jpeg">Fig. 9 Añadir Link De Descarga a la Lista</img><br>
 
+### 6. Comenzar Descarga 
+<p align='justify'> Al final sólo es necesario presionar el botón de iniciar descarga y comenzará el proceso automáticamente. Por último, al terminar las descargas se desplegará un mensaje, indicando que el proceso de descarga ha concluido.</p>
+<img width="250px" src ="WhatsApp Image 2022-07-23 at 11.17.43 PM.jpeg">Fig. 9 Iniciar Descarga</img><br>
+
 ## Referencias
 
 
