@@ -28,10 +28,11 @@ def saveVideo(videoDirection):
     file = videoDirection.streams.filter(only_audio=True).first()
     outputFile = file.download(saveDirectory)
     (...)
+    
 ```
 
 ### 2. Tkinter
-<p align = 'justify'>La GUI fue desarrollada con la ayuda de <a href='https://docs.python.org/es/3/library/tkinter.html'><code>Tkinter</code></a>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario.</p>
+<p align = 'justify'>La GUI fue desarrollada con la ayuda de <a href='https://docs.python.org/es/3/library/tkinter.html'><code>Tkinter</code></a>, una biblioteca gráfica del lenguaje de programación de python, la cual cuenta con un conjunto de herramientas para el desarrollo de interfaces gráficas de usuario. El código siguiente muestra un poco del uso de esta librería dentro de la función principal:</p>
 
 ```
 def main(defaultSaveDirectoryPath):
@@ -48,8 +49,9 @@ def main(defaultSaveDirectoryPath):
     
     # More Elements 
     (...)
+    
     mainWindow.mainloop()  
-main(default)
+main('C:/Users/' + username + '/Music')
 ```
 
 ### 3. OS
