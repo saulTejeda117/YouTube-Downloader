@@ -95,7 +95,7 @@ def saveVideo(videoDirection):
 
 ### 4. Escoger el Directorio Dónde se Guardar las Descargas
 <p align='justify'>Una vez dentro de la interfaz principal de usuario podremos utilizar los botones dentro, para seleccionar la carpeta de guardado de arcchivos.</p>
-<img width="250px" src ="figs/2022-07-24 16-16-14.gif">Fig. 7 Escoger Directorio de Guardado</img><br>
+<img width="600px" src ="figs/2022-07-24 16-16-14.gif">Fig. 7 Escoger Directorio de Guardado</img><br>
 
 ### 5. Añadir links de Descarga 
 <p align='justify'> Posteriormente, dentro del segundo cuadro de texto pagaremos el link de descarga del video que deseamos descargar y damos click en el botón de agregar a la lista de descargas (Fig. 7 Ingresar Link de Descarga a la Lista), una vez hecho esto la lista se desplegará al final de la interfaz (Fig. 8 Añadir Link de Descarga a la Lista).</p>
