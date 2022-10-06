@@ -1,5 +1,11 @@
 # YouTube Downloader
 
+| Contenido|
+| ------------- |
+| <a href='https://github.com/saulTejeda117/YouTube-Downloader#librer%C3%ADas-y-recursos-utilizados'><p>Program Dependencies</p></a>|
+| <a href='https://github.com/saulTejeda117/YouTube-Downloader#Instalación'><p>Program Instalation</p></a>|
+| <a href='https://github.com/saulTejeda117/YouTube-Downloader/edit/main/README.md#funcionamiento'><p>How it works</p></a>|
+
 <p align = 'justify'>Con esta sencilla aplicación de escritorio es posible descargar un sin fin de archivos de audio y video directamente de un enlace de YouTube. A través de su interfaz gráfica de usuario (fig. 1 Interfaz Principal) y los diferentes botones propios de dicha interfaz, es posible crear una lista de descarga de forma sencilla (fig. 2 Lista de Descargas), así como la configuración de la ruta de almacenamiento dentro de nuestro equipo, de esta manera realizar las descargas de forma casi instantanea, todo esto de forma portable, fácil y segura, todo esto sin la necesidad de pagar por algún servicio de suscripción, como el que ofrece YouTube, pudiendo acceder al contenido que se desea, cuando se desea.</p>
 
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.11.31 PM.jpeg"><br>Fig. 1 Interfaz Principal</img><br>
@@ -7,6 +13,8 @@
 
 ## Librerías y Recursos Utilizados
 <p align = 'justify'> Para la elaboración de este pequño programa se hizo uso de una serie librerías especificas del lenguaje de programación de python, así como un programa de creación de archivos ejecutables de windows para la creación del archivo <code>youtubeDownloader.exe</code>. Las librerías utilizadas para la elaboración del trbajo se encuentran en a continuación:</p>
+
+
 
 ```
 import tkinter as tk
@@ -80,7 +88,7 @@ def saveVideo(videoDirection):
 <p align='justify'><a href='https://pyinstaller.org/en/stable/'><code>Auto PY to EXE</code></a> es una librería especial del lenguaje de programación de Python, a través del cual es posible convertir una archivo '.py' en un archivo executable '.exe', junto con todas sus dependencias.</p>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.26.07 PM.jpeg">Fig. 3 Interfaz de Auto PY to EXE</img><br>
 
-## Funcionamiento
+## Instalación
 ### 1. Descargar Achivo 'youtubeDownloader.exe' 
 <p align='justify'> Dentro del repositorio es posible encontrar la versión ejecutable del código con el nombre de <code>youtubeDownloader.exe</code>, entonces descargaremos el archivo ejecutable desde el repositorio.</p>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.03.19 PM.jpeg">Fig. 4 Descargar Archivo Ejecutable</img><br>
@@ -93,16 +101,17 @@ def saveVideo(videoDirection):
 <p align = 'justify'>Posteriormente concederemos los permisos necesarios en la ventana de windows que aparecerá.</p>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-24 at 3.42.05 PM.jpeg">Fig. 6 Conceder los Permisos</img><br>
 
-### 4. Escoger el Directorio Dónde se Guardar las Descargas
+## Funcionamiento
+### 1. Escoger el Directorio Dónde se Guardar las Descargas
 <p align='justify'>Una vez dentro de la interfaz principal de usuario podremos utilizar los botones dentro, para seleccionar la carpeta de guardado de arcchivos.</p>
 <img width="600px" src ="figs/2022-07-24 16-16-14.gif">Fig. 7 Escoger Directorio de Guardado</img><br>
 
-### 5. Añadir links de Descarga 
+### 2. Añadir links de Descarga 
 <p align='justify'> Posteriormente, dentro del segundo cuadro de texto pagaremos el link de descarga del video que deseamos descargar y damos click en el botón de agregar a la lista de descargas (Fig. 7 Ingresar Link de Descarga a la Lista), una vez hecho esto la lista se desplegará al final de la interfaz (Fig. 8 Añadir Link de Descarga a la Lista).</p>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.28 PM.jpeg">Fig. 8 Ingresar Link De Descarga</img><br>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.13.54 PM.jpeg">Fig. 9 Añadir Link De Descarga a la Lista</img><br>
 
-### 6. Comenzar Descarga 
+### 3. Comenzar Descarga 
 <p align='justify'> Al final sólo es necesario presionar el botón de iniciar descarga y comenzará el proceso automáticamente. Por último, al terminar las descargas se desplegará un mensaje, indicando que el proceso de descarga ha concluido.</p>
 <img width="250px" src ="figs/WhatsApp Image 2022-07-23 at 11.17.43 PM.jpeg">Fig. 10 Descargas Concluidas</img><br>
 
