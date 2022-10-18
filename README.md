@@ -3,9 +3,9 @@
 | Contenido|
 | ------------- |
 | <a href='https://github.com/saulTejeda117/YouTube-Downloader#-about'><p>About</p></a>|
-| <a href='https://github.com/saulTejeda117/YouTube-Downloader#-dependencies'><p>Program Dependencies</p></a>|
+| <a href='https://github.com/saulTejeda117/YouTube-Downloader#-dependencies'><p>Dependencies</p></a>|
 | <a href='https://github.com/saulTejeda117/YouTube-Downloader#-configuration'><p>Configuration</p></a>|
-| <a href='https://github.com/saulTejeda117/YouTube-Downloader#-how-it-works'><p>How this program works</p></a>|
+| <a href='https://github.com/saulTejeda117/YouTube-Downloader#-how-it-works'><p>How it works</p></a>|
 
 ## 📋 About 
 <p align = 'justify'> With this simple desktop application you can download Youtube videos using a simple interface (Fig. 1 Principal Interface).</p>
