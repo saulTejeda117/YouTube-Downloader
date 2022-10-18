@@ -4,7 +4,7 @@
 | ------------- |
 | <a href='https://github.com/saulTejeda117/YouTube-Downloader#About'><p>About</p></a>|
 | <a href='https://github.com/saulTejeda117/YouTube-Downloader#Dependencies'><p>Program Dependencies</p></a>|
-| <a href='https://github.com/saulTejeda117/YouTube-Downloader#how-it-works'><p>Configuration</p></a>|
+| <a href='https://github.com/saulTejeda117/YouTube-Downloader#%EF%B8%8F-configuration'><p>Configuration</p></a>|
 | <a href='https://github.com/saulTejeda117/YouTube-Downloader#how-it-works'><p>How this program works</p></a>|
 
 ## 📋 About 
